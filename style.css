@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    height: 50px;
+    background-color: #000;
+}
+
+header ul li {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 0 24px;
+    line-height: 50px;
+}
+
+header ul li:hover {
+    background-color: #ccc;
+    cursor: pointer;
+    color: #000;
+}
+
+header > ul > li {
+
+}
+
